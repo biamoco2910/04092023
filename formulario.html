@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="formulario.css">
+    <title>Document</title>
+    <script lang="JavaScript">
+        function formul()
+        {
+
+        }
+    </script>
+</head>
+<body>
+    <form>
+        Informe o seu prontuário: <input type="text" name="prontuario" size="15" placeholder="Ex: CB0000000"><br>
+        Informe o seu nome: <input type="text" name="nome" size="45" placeholder="Seu nome aqui..."><br>
+        Informe o seu e-mail: <input type="email" name="email" size="30" placeholder="Ex: email@exemplo.com.br"><br>
+        Informe sua data de entrada na instituição: <input type="date" name="dataDeInscricao" size="30"><br>
+        Atividades extracurriculares que você participa: <br>
+        <input type="checkbox" name="interesse1">Música<br>
+        <input type="checkbox" name="interesse2">Teatro<br>
+        <input type="checkbox" name="interesse3">Pintura<br>
+        <input type="checkbox" name="interesse4">Outro<br>
+        Selecione o seu curso:
+        <select name="curso">
+            <option value="TI">Técnico em informática integrado ao ensino médio</option>
+            <option value="TE">Técnico em eventos integrado ao ensino médio</option>
+        </select>
+        <br>
+        Satisfação com o curso:<br>
+        Pouco satisfeito <input type="range" name="satisfacao"> Muito satisfeito
+        <br>
+        <input type="button" value="Enviar" onclick="formul();">
+        <input type="reset" value="Limpar"><br>
+    </form>
+</body>
+</html>
